@@ -1,5 +1,5 @@
 
-public class Study01 {
+public class Study0416 {
 	public static void main(String[] args) {
 
 		// for 구문 배움
