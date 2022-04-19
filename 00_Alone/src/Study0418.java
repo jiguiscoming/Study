@@ -19,6 +19,7 @@ public class Study0418 {
 			System.out.println();
 
 		}
+		
 
 	}
 }
