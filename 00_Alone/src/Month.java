@@ -3,15 +3,21 @@ public class Month {
 
 	private String animal;
 	private int month;
+	private static int count;
+
+	public static int getCount() {
+		return count;
+	}
 
 	public Month() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public Month(String animal, int month) {
 		super();
 		this.animal = animal;
 		this.month = month;
+		count++;
 	}
 
 
@@ -34,6 +40,9 @@ public class Month {
 	public void printInfo() {
 		System.out.println(animal + "는 " + month + "개월입니다.");
 	}
+	
+	
+	
 	
 	
 }

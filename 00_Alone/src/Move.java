@@ -3,6 +3,8 @@ public class Move {
 
 	private String animal;
 	private static final String MOVING = "움직입니다.";
+	private static int count;
+	
 	
 	public Move() {
 		// TODO Auto-generated constructor stub
@@ -11,9 +13,13 @@ public class Move {
 	
 	
 
+
+
+
 	public Move(String animal) {
 		super();
 		this.animal = animal;
+		count++;
 	}
 
 
@@ -28,6 +34,10 @@ public class Move {
 
 	public static String getMoving() {
 		return MOVING;
+	}
+	
+	public static int getCount() {
+		return count;
 	}
 	
 	public void printInfo() {

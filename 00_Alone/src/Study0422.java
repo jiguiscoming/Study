@@ -23,6 +23,7 @@ public class Study0422 {
 		Month cat2 = new Month("°í¾çÀÌ", 13);
 		cat2.printInfo();
 		
+		System.out.println(Month.getCount());
 		
 		
 		
