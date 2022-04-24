@@ -49,7 +49,7 @@ public class Pet {
 	}
 	
 	static void printCount() {
-		System.out.println("현재 애완동물의 수는 " + cnt);
+		System.out.println("현재 애완동물의 수는 " + cnt + "마리입니다.");
 	}
 	
 	
