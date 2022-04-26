@@ -1,6 +1,7 @@
 package com.js.animalhosipital;
 
 public class Doctor {
+	
 
 	public Doctor() {
 
@@ -37,4 +38,6 @@ public class Doctor {
 		pet.petInfo();
 	}
 
+	
+	
 }

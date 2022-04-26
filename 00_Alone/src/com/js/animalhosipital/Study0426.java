@@ -25,6 +25,7 @@ public class Study0426 {
 		
 		d.judge(person1, cat1);
 		d.judge(person2, dog1);
+		Pet.getNumOfAnimal();
 		
 	}
 	
